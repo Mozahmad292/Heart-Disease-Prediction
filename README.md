@@ -6,7 +6,7 @@ Heart Disease is the leading cause of death and hospitalization in the world. Du
 The dataset is taken from renowned source Kaggel. This data set dates from 1988 and consists of four databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 14 of them. The "target" field refers to the presence of heart disease in the patient. It is integer valued 0 = no disease and 1 = disease.
 
 
-**Data Preprocessing
+**Data Preprocessing**
 
 When developing a machine learning project, it is not always a case that we come across the clean and formatted data. And while doing any operation with data, it is mandatory to clean it and put it in a formatted way. So for this, we do data preprocessing.It refers to manipulation or dropping of data before it is used in order to ensure or enhance performance, and is an important step in any Machine Learning project.
 There are various kinds of data pre-processing methods followed by machine learning projects.For example, Handling/Imputing Missing Values,Check for Redundant values, Feature Scaling/Normalization,Encoding Categorical Features etc.But its not necessary to apply all the methods to any machine learning project.It actually gets determined by the dataset we have.The nature of the data and the purposes of a particular project or researcher will determine what methods we need to apply or even we need to apply any of the pre-processing methods at all.
@@ -42,7 +42,7 @@ For any machile learning project the data must need to be splitted by features a
 Basically, it is a technique for testing how well a machine learning algorithm performs. Training datasets are used to fit the algorithm, while testing datasets are used to evaluate it. To split a single dataset for two different purposes, we use the train-test-split function. A large dataset makes train_test_split the most efficient because there is enough data for training and testing. We gave 80% of the data for training, and 20% for testing to get more accurate results.
 
 
-Models
+**Models**
 
 Using the dataset we are trying to solve classifier problems. By using the given information we are trying to come to the conclusion whether a person will have heart disease or not. Therefore, we are trying to solve this using supervised learning. These models will basically predict whether a person will have heart disease or not by taking the features of the provided dataset into account. For this purpose we have chosen three classifier models they are mentioned below:
 
@@ -63,6 +63,6 @@ Neural Network is another algorithm which we used. It is a widely used algorithm
 
 
 
-Results 
+**Results** 
 
 We have used three models : logistic regression, decision tree and neural network. We have seen differences in their accuracy. Firstly in logistic regression training accuracy of Logistic regression is: 0.86 and the test accuracy of Logistic regression is: 0.80. Secondly in decision tree training accuracy of Decision Tree Classifier is 1.00 and the Test accuracy of Decision Tree Classifier is 1.00. Thirdly in Neural network the training accuracy of Neural Network Classifier is 0.85 and the test accuracy of Neural Network is 0.83. Therefore we can see that the decision tree gives the highest accuracy, then logistic regression and finally neural network. But if we can use a higher amount of data surely the neural network will give higher accuracy.

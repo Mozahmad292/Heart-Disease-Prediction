@@ -1,12 +1,12 @@
 # Heart-Disease-Prediction
 Heart Disease is the leading cause of death and hospitalization in the world. Due to technological advancements and the assistance of computer engineering, heart disease may now be quickly and successfully diagnosed and treated. In the realm of medicine nowadays, illness prediction using machine learning is quite popular. According to the Chest and Heart Association of Bangladesh, 25% of all heart strokes in Bangladesh happen in those under 40 and 50% of heart attacks happen to people under 50. The risk of heart attacks is three times higher in urban areas than in rural ones. Our project is regarding heart disease prediction which fall under the category of supervised learning and the dataset is taken from the renowned site- kaggel. Based on data preprocessing and models applied to the dataset, we predicted whether a patient had heart disease or not. Using the provided features, this dataset is intended to identify which patients are most likely to develop a heart disease in the near future.
 
-Dataset description
+**Dataset description**
 
 The dataset is taken from renowned source Kaggel. This data set dates from 1988 and consists of four databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 14 of them. The "target" field refers to the presence of heart disease in the patient. It is integer valued 0 = no disease and 1 = disease.
 
 
-Data Preprocessing
+**Data Preprocessing
 
 When developing a machine learning project, it is not always a case that we come across the clean and formatted data. And while doing any operation with data, it is mandatory to clean it and put it in a formatted way. So for this, we do data preprocessing.It refers to manipulation or dropping of data before it is used in order to ensure or enhance performance, and is an important step in any Machine Learning project.
 There are various kinds of data pre-processing methods followed by machine learning projects.For example, Handling/Imputing Missing Values,Check for Redundant values, Feature Scaling/Normalization,Encoding Categorical Features etc.But its not necessary to apply all the methods to any machine learning project.It actually gets determined by the dataset we have.The nature of the data and the purposes of a particular project or researcher will determine what methods we need to apply or even we need to apply any of the pre-processing methods at all.

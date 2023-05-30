@@ -69,6 +69,7 @@ Using the dataset we are trying to solve classifier problems. By using the given
 
 
 1.	Logistic Regression:
+2.	
 Logistic regression is mainly used to predict categorical value.Logistic regression is a technique used for classification.Our dataset depends on two categorical variables that is presence and absence so binary classification it is.  logistic regression fits for our classification work better. In our dataset we have given 13 features and we want our models to predict whether a person will have heart disease in the future or not. Now on our dataset we have 13 features and we have also specified the target. So when we use this classifier logistic regression on our data set it should be able to classify and plot based on the features and predict whether our patient has a possibility of getting heart disease in the future.
 
 
